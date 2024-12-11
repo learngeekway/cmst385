@@ -6,9 +6,9 @@
 
 #Change the name to match your course name
 
-#Example name: Deploy HTML Files to AppService - CMST388
+#Example name: Deploy HTML Files to AppService - COURSENAME
 
-name: Deploy HTML Files to AppService - CMST385
+name: Deploy HTML Files to AppService - CMST388
 
 on:
 
@@ -24,7 +24,7 @@ jobs:
 
     runs-on: windows-latest
 
-     steps:
+    steps:
 
     - uses: actions/checkout@main
 
@@ -36,7 +36,7 @@ jobs:
 
       #Change the app-name to match what was provided to you in the publish settings file, this is in a naming convention of 'COURSENAME-STUDENTUID'
 
-        app-name: 'CMST388-ctchokouani'
+        app-name: 'cmst388-ctchokouani'
 
         slot-name: 'production'
 
